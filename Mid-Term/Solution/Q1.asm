@@ -1,0 +1,35 @@
+
+.MODEL SMALL
+.STACK 100H
+.DATA
+
+
+PROMPT DB " DIGITS FROM 0-9 ARE-$" 
+
+.CODE
+
+MAIN PROC
+    
+DATA SEGMENT
+    NUM1 DB ?
+    NUM2 DB ?
+    RESULT DB ?
+    MSG1 DB 10, 13, "ENTER INTEGER 1:-$"
+    MSG2 DB 10, 13, "ENTER INTEGER 2-$"
+    MSG3 DB 10, 13, "ENTER RESULT OF MULTIPLICATION IS-$"
+    
+ENDS
+
+    
+    
+ 
+
+     
+   
+    
+
+
+
+
+
+
